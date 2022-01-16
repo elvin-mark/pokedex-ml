@@ -1,0 +1,31 @@
+.pokemon-item {
+  text-align: center;
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.pokemon-search-item {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.capture-btn {
+  background-color: rgba(31, 163, 71, 0.589);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+td {
+  text-align: left;
+  padding-left: 50px;
+}
