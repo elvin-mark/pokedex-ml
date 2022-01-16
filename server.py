@@ -12,7 +12,6 @@ from models import pokemon_model
 
 dev = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-
 model_cnn = pokemon_model().to(dev)
 
 with open("data/pokemon_label.pkl", "rb") as f:
