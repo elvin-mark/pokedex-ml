@@ -3,7 +3,6 @@ import axios from "axios";
 import PokemonSearchItem from "./PokemonSearchItem";
 import Webcam from "react-webcam";
 import loading_logo from "../loading.gif";
-import { Tensor, InferenceSession } from "onnxjs";
 
 function PokemonSearch() {
   const [selectedFile, setSelectedFile] = useState(null);
